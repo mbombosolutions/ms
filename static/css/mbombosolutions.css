@@ -1,0 +1,67 @@
+
+RGB( 35 , 50, 15)
+RGB(61, 36, 3)
+RGB( 30, 23, 47)
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+body {
+/*padding-left: 2%;
+  padding-right: 2%;*/
+  
+}
+section{
+	background-color: none;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.navbar{
+	width: 	100%;
+	margin: auto;
+}
+.navbar-brand img{
+	max-width: 100px;
+}
+.carousel-inner > .carousel-item > img,
+.carousel-inner > .carousel-item > a > img {
+      width: 70%;
+      margin: auto;
+
+ }
+
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
